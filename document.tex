@@ -1,10 +1,20 @@
-\maketitle
-\tableofcontents* % the asterisk means that the contents itself isn't put into the ToC
+% Titlepage
+\input{titlepage.tex}
 
-% we should include (using \input{%FILE} for the various chapters or whatever
+% Chapter 0 - Abstract
+\input{chap00_abstract.tex}
 
+% Make table of contents
+\tableofcontents
+
+% Chapter 1 - Theory
 \input{chap01_theory.tex}
-
 \newpage
 
+% Chapter 2 - Background
 \input{chap02_background.tex}
+
+
+% Appendices
+\appendix
+\input{appendices.tex}
