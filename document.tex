@@ -5,7 +5,7 @@
 \input{abstract.tex}
 
 % Make table of contents
-\tableofcontents{Innhold}
+\tableofcontents
 
 % Chapter 1 - Background
 \input{background/background.tex}             % Introduction to chapter
@@ -31,19 +31,9 @@
 \input{conclusion/conclusion.tex}
 \newpage
 
+% Bibliography (denne måten funker under linux)
+\nocite{*}            % marks all entries as used
+\printbibliography[heading=bibintoc]    % prints all entries
+
 % Appendices
-%\input{appendices.tex}
-
-% Bibliography
-\nocite{*}					% prints all the entries in the bibliography, even if they're not cited
-\bibliography{references}{} % specifies that the bibliography is found in references.bib
-\bibliographystyle{plain} 	% sets the style
-
-
-% Chapter 2 - Theory
-%\input{chap02_theory/chap02_theory.tex}
-%\input{chap02_theory/grouptheory.tex}
-%\input{chap02_theory/groupdevelopment.tex}
-%\input{chap02_theory/communicationtheory.tex}
-%\input{chap02_theory/sitra.tex}
-%\newpage
+\input{appendices.tex}
