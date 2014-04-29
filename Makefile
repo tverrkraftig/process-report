@@ -1,7 +1,7 @@
 .PHONY: all
 all:
 	pdflatex report > /dev/null
-	bibtex report > /dev/null
+	biber report > /dev/null
 	pdflatex report > /dev/null
 	pdflatex report > /dev/null
 	open report.pdf
