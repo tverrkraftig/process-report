@@ -7,4 +7,6 @@
 *.synctex.gz
 *.swp
 *.bak
+*.bcf
+*.run.xml
 
