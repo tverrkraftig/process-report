@@ -1,0 +1,11 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Piler side 1
+\begin{figure}
+    \begin{tikzpicture}[remember picture, overlay, xshift=1cm, yshift=-15.3cm]
+        \foreach \x in {0,-1.5,-3,-4.5}%,-6,-7.5,-9,-10.5,-12,-13.5,-15,-16.5}
+            \draw [color=white, fill=LightGray, blur shadow] (0,\x) -- (0.5,\x+0.5) -- (0.5,\x-1) -- (0,\x-1.5) -- (-0.5,\x-1) -- (-0.5,\x+0.5) -- (0,\x);
+        \draw [color=white, top color=red, bottom color=DarkRed, blur shadow] (0,0) -- (1,1) -- (1,-2) -- (0,-3) -- (-1,-2) -- (-1,1) -- (0,0);
+        \draw (0,-0.5) node[anchor=north, color=white] {\Large \textbf{Fase 1}}; 
+    \end{tikzpicture}
+\end{figure}
+\begin{adjustwidth}{2.5cm}{0cm}
