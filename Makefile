@@ -13,5 +13,5 @@ clean:
 .PHONY: err
 err:
 	pdflatex report
-	bibtex report
+	biber report
 	
