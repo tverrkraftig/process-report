@@ -5,3 +5,6 @@
 *.bbl
 *.out
 *.synctex.gz
+*.swp
+*.bak
+
